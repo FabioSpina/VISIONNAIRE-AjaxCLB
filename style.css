@@ -11,7 +11,9 @@
   margin:auto;  
 }
 
-html, body {  
+body {  
+  background-color: black;
+  background-repeat: no-repeat;
   background-image: linear-gradient(rgb(139, 180, 235), rgb(26, 49, 124));
 }
 
