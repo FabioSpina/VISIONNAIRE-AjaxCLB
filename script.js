@@ -28,5 +28,5 @@
   var Doc = JSON.parse(xml.responseText);
   figuraAPOD.src = Doc.url;
   msgAPOD.innerHTML=  Doc.explanation;
-  DateAPOD.innerHTML=  Doc.date;
+  DateAPOD.innerHTML=  "Imagem do dia " + Doc.date;
 }
