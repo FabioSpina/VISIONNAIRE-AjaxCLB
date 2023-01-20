@@ -15,16 +15,16 @@ html, body {
   background-image: linear-gradient(rgb(139, 180, 235), rgb(26, 49, 124));
 }
 
-.texto {
-  text-decoration: rgb(21, 13, 95);
+#texto {
+  text-decoration: rgb(48, 115, 223);
   font-weight: bold;
-  font-size: 50px;
-
+  
 }
 #figuraAPOD {
   padding-top: 20px;
   width: 80%;
   height: 80%;  
+  
 }
 
 #start{
@@ -36,6 +36,13 @@ html, body {
   font-weight: bold;
 }
 
+
+#msgAPOD{
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 
 
 
